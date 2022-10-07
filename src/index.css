@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}    
+    body {
+    background-color: #0b2434;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+
+}
+.main {
+    height: 600px;
+    background-color: #f5f5f5;
+    margin: 2rem;
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+.die {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+}
+.die-num {
+    font-size: 2rem;
+}
+.rolldice {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035ff;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.rolldice:focus {
+    outline: none;
+}
+.rolldice:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.title {
+    font-size: 40px;
+    margin: 0;
+}
+.instructions {
+    margin-top: 0;
+    text-align: center;
+}
