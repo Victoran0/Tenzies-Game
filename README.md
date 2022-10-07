@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Built a Tenzie game using React JS. Added lot of great functionality using React Syntax
+
+#### You should download all the dependencies for the node_modules folder. To do that;
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
